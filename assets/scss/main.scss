@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+main section h1 {
+  font-size: 50px;
+}
+
+main section div {
+  display: flex;
+}
+
+main section div label {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+main section div label p {
+  font-size: 20px;
+}
+
+main section div label input {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+main section div label article {
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+main section div label article input {
+  padding: 100px;
+  margin: auto 10px;
+}

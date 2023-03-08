@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+main section h1 {
+  font-size: 50px;
+}
+
+main section div {
+  display: flex;
+}
+
+main section div label {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+main section div label p {
+  font-size: 20px;
+}
+
+main section div label input {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+main section div label article {
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+main section div label article input {
+  padding: 100px;
+  margin: auto 10px;
+}
+
+* {
+  background: #f6f4d2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  align-items: center;
+}
+
+body {
+  width: 1920px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.caixas {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome {
+  width: 500px;
+  text-transform: uppercase;
+}
+
+.data,
+.cpf {
+  width: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
