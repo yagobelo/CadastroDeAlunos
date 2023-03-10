@@ -10,6 +10,7 @@
   margin: 0;
   border: 0;
   align-items: center;
+  text-transform: uppercase;
 }
 
 body {
@@ -32,4 +33,12 @@ body {
 .data,
 .cpf {
   width: 150px;
+}
+
+.btnSave {
+  background: green;
+}
+
+.btnCancel {
+  background: red;
 }
